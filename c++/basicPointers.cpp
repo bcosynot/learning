@@ -15,4 +15,8 @@ int main(){
   cout << endl << a << "-" << pointerToA << endl;
   // Dereference that thang!
   cout << *pointerToA << endl;
+  // Check out the null pointer.
+  int *nullPointer = 0;
+  cout << nullPointer << endl;
+  cout << *nullPointer << endl;
 }
