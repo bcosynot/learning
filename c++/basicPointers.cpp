@@ -13,4 +13,6 @@ int main(){
   int* pointerToA = &a;
   // Let's print both out and see the results.
   cout << endl << a << "-" << pointerToA << endl;
+  // Dereference that thang!
+  cout << *pointerToA << endl;
 }
