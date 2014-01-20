@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void sort(int *&array, int arraySize);
+void sort(int array[], int arraySize);
 
 /**
  * Program to perform selection sort
@@ -23,7 +23,7 @@ int main()
   // Get pointer to array.
   int* pointer = a;
   // Sort the array.
-  sort(pointer,5);
+  sort(a,5);
 
   cout << "Sorted array:\n";
   // Print the array.
@@ -40,7 +40,7 @@ int main()
  *
  * @return The sorted array
  */
-void sort(int *&array, int arraySize){
+void sort(int array[], int arraySize){
 
   for(int i = 0; i < arraySize; i++){
     // Find the smallnest array and put it
