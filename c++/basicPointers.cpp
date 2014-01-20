@@ -4,7 +4,7 @@ using namespace std;
 /**
  * This program is an attempt to get a handle
  * on pointers. The very basic and nothing fancy.
- * Baby steps, yo.*
+ * Baby steps, yo.
  */
 int main(){
   // Declare a variable.
