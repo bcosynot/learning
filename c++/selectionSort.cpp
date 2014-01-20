@@ -21,7 +21,7 @@ int main()
   }
 
   // Get pointer to array.
-  int* pointer = a;
+  //int* pointer = a;
   // Sort the array.
   sort(a,5);
 
